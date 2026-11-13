@@ -48,10 +48,10 @@ if(
         let grade=calculateGrade(average);
 
 
-        console.log("Student Name:"+name);
-        console.log("Course:"+course);
+        console.log("Student Name:"+name");
+        console.log("CourseName:"+ course);3
         console.log("Average:"+average.toFixed(2));
-            console.log("Grade:"+grade);
+        console.log("Grade:"+grade);
 
         }
     
