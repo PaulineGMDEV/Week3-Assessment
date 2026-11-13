@@ -43,9 +43,9 @@ if(
     mark3<0||mark3>100
 ){
     alert("Invalid marks!Enter marks between 0 to 100.");
-    {else{
+}else {
         let average=calculateAverage(mark1,mark2,mark3);
-        let grade(calculateGrade(average);
+        let grade=calculateGrade(average);
 
 
         console.log("Student Name:"+name);
@@ -54,4 +54,4 @@ if(
             console.log("Grade:"+grade);
 
         }
-}
+    
